@@ -1,5 +1,6 @@
-"""Homework file for my students to have fun with some algorithms! """
+File "<stdin>", line 1
 
+"""Homework file for my students to have fun with some algorithms! """
 
 def find_greatest_number(incoming_list):
     """
@@ -10,7 +11,7 @@ def find_greatest_number(incoming_list):
     incoming_list=[1,2,3,4,5,6,7,8]
     #Find the greatest number in the list 
     find_greatest_number = max(incoming_list)
-    print("The greatest number is:", find_greatest_number)
+    return find_greatest_number
 
 def find_least_number(incoming_list):
     """
@@ -21,7 +22,7 @@ def find_least_number(incoming_list):
     incoming_list=[1,2,3,4,5,6,7,8]
     #Find the smallest number in the list
     find_least_number = min(incoming_list)
-    print("The smallest number is:", find_least_number)
+    return find_least_number
     
 def add_list_numbers(incoming_list):
     """
@@ -32,7 +33,7 @@ def add_list_numbers(incoming_list):
     incoming_list=[1,2,3,4]
     #Find the sum of the numbers in the list 
     total = sum(incoming_list)
-    print("The sum of this list is:", total)
+    return total
 
 def longest_value_key(incoming_dict):
     """
@@ -43,4 +44,4 @@ def longest_value_key(incoming_dict):
     incoming_dict = {"dog": "cat", "a": "asdfasdfasdfasdfasdf"}
     #Find the longest value key
     longest_value_key = max(incoming_dict, key=len)
-    print(longest_value_key)
+    return longest_value_key
