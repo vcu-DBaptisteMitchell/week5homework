@@ -6,7 +6,8 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    print("The greatest number is:", max(find_greatest_number))
+    find_greatest_number = max(find_greatest_number)
+    print("The greatest number is:", find_greatest_number)
 
 
 
