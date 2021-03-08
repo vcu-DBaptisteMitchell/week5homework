@@ -6,9 +6,13 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    find_greatest_number = max(find_greatest_number)
-    print("The greatest number is:", find_greatest_number)
 
+#Create a list
+GreatestN=[1,2,3,4,5,6,7,8]
+
+#Find the greatest number in the list 
+find_greatest_number = max(GreatestN)
+print("The greatest number is:", GreatestN)
 
 
 def find_least_number(incoming_list):
@@ -16,18 +20,26 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    find_least_number = (min(find_least_number))
-    print("The smallest number is:", find_least_number)
-    
 
+    #Create a List
+SmallestN=[1,2,3,4,5,6,7,8]
+
+    #Find the smallest number in the list
+find_least_number = min(SmallestN)
+print("The smallest number is:", SmallestN)
+    
 
 def add_list_numbers(incoming_list):
     """
     Required parameter incoming_list, should be a list.
     Add all the values together and return it.
     """
-    total = sum(add_list_numbers)
-    print("The sume of this list is:", total)
+    #Create a List 
+SumOFList=[1,2,3,4]
+
+    #Find the sum of the numbers in the list 
+total = sum(SumOFList)
+print("The sume of this list is:", total)
 
 def longest_value_key(incoming_dict):
     """
