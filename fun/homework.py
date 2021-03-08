@@ -16,8 +16,9 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    print("The smallest number is:", (min(find_least_number))
-    )
+    find_least_number = (min(find_least_number))
+    print("The smallest number is:", find_least_number)
+    
 
 
 def add_list_numbers(incoming_list):
