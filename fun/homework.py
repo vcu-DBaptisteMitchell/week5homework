@@ -9,6 +9,7 @@ def find_greatest_number(incoming_list):
     print("The greatest number is:", max(homework.find_greatest_number))
 
 
+
 def find_least_number(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -19,7 +20,7 @@ def find_least_number(incoming_list):
 
 def add_list_numbers(incoming_list):
     """
-    Required parameter, incoming_list, should be a list.
+    Required parameter incoming_list, should be a list.
     Add all the values together and return it.
     """
 list3= [1,2,3,4]
