@@ -12,7 +12,7 @@ GreatestN=[1,2,3,4,5,6,7,8]
 
 #Find the greatest number in the list 
 find_greatest_number = max(GreatestN)
-print("The greatest number is:", GreatestN)
+print("The greatest number is:", find_greatest_number)
 
 
 def find_least_number(incoming_list):
@@ -26,7 +26,7 @@ SmallestN=[1,2,3,4,5,6,7,8]
 
     #Find the smallest number in the list
 find_least_number = min(SmallestN)
-print("The smallest number is:", SmallestN)
+print("The smallest number is:", find_least_number)
     
 
 def add_list_numbers(incoming_list):
@@ -39,12 +39,16 @@ SumOFList=[1,2,3,4]
 
     #Find the sum of the numbers in the list 
 total = sum(SumOFList)
-print("The sume of this list is:", total)
+print("The sum of this list is:", total)
 
 def longest_value_key(incoming_dict):
     """
     Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function
     """
-    longest_value_key = max(longest_value_key, key=len)
-    print(longest_value_key)
+    #Create list of keys 
+longest_value_key = ({"dog": "cat", "a": "asdfasdfasdfasdfasdf"})
+
+    #Find the longest value key
+longest_value_key = max(longest_value_key, key=len)
+print(longest_value_key)
