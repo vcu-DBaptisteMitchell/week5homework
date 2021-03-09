@@ -5,10 +5,9 @@ def find_greatest_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the largest number in the list.
     """
-    #Create a list
-    incoming_list=[1,2,3,4,5,6,7,8]
-
-    #Find the greatest number in the list 
+    #Work
+   
+    #Return the value 
     find_greatest_number = max(incoming_list)
     return find_greatest_number
 
@@ -17,10 +16,9 @@ def find_least_number(incoming_list):
     Required parameter, incoming_list, should be a list.
     Find the smallest/least number in the list.
     """
-    #Create a List
-    incoming_list=[1,2,3,4,5,6,7,8]
+    #Work
 
-    #Find the smallest number in the list
+    #Return the value
     find_least_number = min(incoming_list)
     return find_least_number
     
@@ -32,7 +30,7 @@ def add_list_numbers(incoming_list):
     #Create a List 
     incoming_list=[1,2,3,4]
 
-    #Find the sum of the numbers in the list 
+    #Return the value 
     total = sum(incoming_list)
     return total
 
@@ -43,7 +41,7 @@ def longest_value_key(incoming_dict):
     """
     #Create list of keys 
     incoming_dict = {"dog": "cat", "a": "asdfasdfasdfasdfasdf"}
-    
-    #Find the longest value key
+
+    #Return the value
     longest_value_key = max(incoming_dict, key=len)
     return longest_value_key
